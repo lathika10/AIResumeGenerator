@@ -1,0 +1,69 @@
+.experience-container {
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.experience-heading {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.experience-block {
+  margin-bottom: 8px;
+}
+
+.title-date-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.job-title {
+  font-size: 9px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.date-range {
+  font-size: 7px;
+  color: #555;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.company-location {
+  font-size: 8px;
+  color: #444;
+  margin-bottom: 0px;
+}
+
+.description-text {
+  font-size: 8px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+
+/* ✨ Bullet point fix: Remove extra space */
+.description-text ul,
+.description-text ol {
+  padding-left: 2px;       /* reduced left padding */
+  margin-left: 0;           /* remove default margin */
+  list-style-position: inside; /* bullet aligned with text */
+}
+
+.description-text li {
+  margin-bottom: 4px;        /* spacing between bullet points */
+  line-height: 1.4;
+  font-size: 8px;
+}
+
+/* Remove last child margin to avoid bottom gap */
+.experience-block:last-child {
+  margin-bottom: 0;
+}

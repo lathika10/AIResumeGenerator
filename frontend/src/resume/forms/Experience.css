@@ -1,0 +1,159 @@
+/* Experience.css */
+.experience-container-1 {
+  /* Added space below container */
+    background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 0;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgb(204, 167, 110);
+  font-family: Arial, sans-serif;
+}
+
+.experience-header h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experience-header p {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 15px;
+  border-left: 1px solid #eee; /* Subtle left border */
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.experience-item input {
+  width: 200px;
+  padding: 5px 8px;
+  margin-top: 3px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.experience-item label {
+  display: block;
+  font-size: 12px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.date-group {
+  display: flex;
+  gap: 15px;
+}
+
+.date-input {
+  flex: 1;
+}
+
+.date-display {
+  font-weight: bold;
+  margin-top: 3px;
+  font-size: 10px;
+  color: #555;
+}
+
+.work-summary-group {
+  margin-top: 10px;
+}
+
+.rich-text-editor-container {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 6px;
+  margin-top: 5px;
+  height: 120px; /* Reduced height */
+  overflow-y: auto;
+  background: white;
+  font-size: 12px;
+}
+
+.experience-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.experience-controls button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+
+.add-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-1px);
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.remove-button:hover {
+  background-color: #c0392b;
+  transform: translateY(-1px);
+}
+
+.save-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #27ae60;
+  transform: translateY(-1px);
+}
+
+/* Additional styling for better visual hierarchy */
+.experience-item:not(:last-child) {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 15px;
+}
+
+/* Style for date inputs */
+input[type="month"] {
+  appearance: none;
+  background: #f9f9f9;
+  padding: 5px;
+}

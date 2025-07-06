@@ -1,0 +1,44 @@
+.skill-container {
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.skill-title {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+/* Grid layout: 2 columns */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px; /* row gap, column gap */
+}
+
+.skill-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.skill-name {
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.progress-bar-background {
+  background-color: #d3d3d3;
+  height: 6px;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}

@@ -1,0 +1,82 @@
+.education-container-1 {
+   background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 0;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgb(204, 167, 110);
+  font-family: Arial, sans-serif;
+}
+
+.education-title {
+  font-size: 18px;         /* smaller than your 18px, closer to experience heading */
+  font-weight: 700;        /* bolder for emphasis */
+  margin: 0 0 10px 0;
+}
+
+.education-entry {
+  margin-bottom: 8px;      /* consistent spacing */
+}
+
+.education-entry:last-child {
+  margin-bottom: 0;
+}
+
+.education-text {
+  max-width: 90%;
+}
+
+.education-university {
+  font-weight: 600;
+  font-size: 11px;
+  margin: 0;
+}
+
+.education-degree {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 2px;
+  color: #555;
+}
+
+.education-dates {
+  font-size: 9px;
+  white-space: nowrap;
+  color: #555;
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.education-desc {
+  font-size: 9px;
+  margin-top: 5px;
+  font-weight: 300;
+  margin-bottom: 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Bullet point fix if you have lists inside description */
+.education-desc ul,
+.education-desc ol {
+  padding-left: 2px;            /* reduce left padding */
+  margin-left: 0;
+  list-style-position: inside;  /* align bullets inside text */
+}
+
+.education-desc li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+  font-size: 9px;
+}
+
+/* Align university and dates on one row if needed */
+.education-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

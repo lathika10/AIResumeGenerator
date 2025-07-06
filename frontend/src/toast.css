@@ -1,0 +1,36 @@
+/* Custom smaller toast container */
+.Toastify__toast-container {
+  width: 200px;  /* Reduced from default 320px */
+}
+
+.Toastify__toast {
+  min-height: 30px;  /* Reduced from default 60px */
+  padding: 10px 14px;  /* Reduced padding */
+  font-size: 10px;  /* Slightly smaller text */
+  margin-bottom: 12px;  /* Less space between toasts */
+}
+
+/* Success toast specific styling */
+.Toastify__toast--success {
+  background-color:rgb(249, 255, 249);
+  color: black;
+  max-width: 200px;  /* Constrain maximum width */
+}
+
+/* Progress bar */
+.Toastify__progress-bar {
+  height: 2px;  /* Thinner progress bar */
+}
+
+/* Make the icon smaller */
+.Toastify__toast-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+/* Close button adjustments */
+.Toastify__close-button {
+  font-size: 14px;
+  margin-left: 8px;
+}

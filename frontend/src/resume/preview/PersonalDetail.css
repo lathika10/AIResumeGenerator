@@ -1,0 +1,48 @@
+.personal-detail {
+  text-align: center;
+  padding: 2px 5px 5px 5px;   /* reduce top padding */
+  border-bottom: 2px solid;
+  margin-top: 0;              /* make sure no outside margin */
+}
+
+.personal-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0.2rem 0 0.4rem 0;  /* reduced top and bottom margin */
+}
+
+.job-title {
+ font-size:20px;
+  font-weight: bold;
+  margin: 0.2rem 0;
+}
+
+.address {
+  font-size: 12px;
+  margin: 0.5rem 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0 2rem;
+  margin-top: 0.8rem;
+  font-weight: 200;
+}
+
+.contact p {
+  margin: 0;
+}
+
+/* Remove the extra hr if you're using border-top/bottom on the container */
+.divider {
+  display: none;
+}
+
+.personal-name,
+.job-title,
+.address,
+.contact p {
+  margin-top: 0;
+}

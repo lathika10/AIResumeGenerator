@@ -1,0 +1,45 @@
+.resume-card {
+  width: 100px;
+  height: 150px;
+  background-color: rgb(236, 223, 213);
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(214, 197, 183);
+}
+.resume-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resume-card-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.icon-container {
+  font-size: 20px;
+}
+
+.resume-title {
+  text-align: center;
+  font-weight: 100;
+  font-size: 16px;
+  padding-bottom:30px;
+}

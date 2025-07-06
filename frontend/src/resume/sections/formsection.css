@@ -1,0 +1,72 @@
+.form-container {
+  padding: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between; /* Theme on left, nav on right */
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.theme-button,
+.nav-button {
+  display: flex;
+  align-items: center;
+  font-size: 10px; /* Smaller text size */
+  padding: 2px; /* Smaller padding */
+  border-radius: 5px; /* Slightly smaller rounded corners */
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-button {
+  background-color:rgb(202, 185, 170); /* Tailwind's gray-200 */
+  
+}
+
+.theme-button:hover {
+  background-color:rgb(233, 231, 227); /* gray-300 */
+ 
+}
+
+.nav-buttons {
+  display: flex;
+  
+  align-items: center;
+  gap: 0.5rem; /* Small gap between Prev and Next */
+}
+
+.nav-button.prev {
+   
+   color: white; 
+  background-color:rgb(199, 171, 145); /* blue-200 */
+}
+
+.nav-button.prev:hover {
+  color: rgb(155, 116, 80);
+  background-color:rgb(220, 205, 181); /* blue-300 */
+}
+
+.nav-button.next {
+   color: white; 
+  background-color:rgb(199, 171, 145); /* green-200 */
+}
+
+.nav-button.next:hover {
+  color: rgb(155, 116, 80);
+  background-color: rgb(220, 205, 181); /* green-300 */
+}
+
+.icon-left {
+  margin-right: 0.25rem;
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.icon-right {
+  margin-left: 0.25rem;
+  width: 0.85rem;
+  height: 0.85rem;
+}

@@ -1,0 +1,77 @@
+/* Global reset to avoid unwanted spacing */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* adjust horizontal padding here */
+  background-color: #e6ddd5;
+  position: fixed;
+  top: 0px;
+  bottom:5px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-logo {
+  margin-left: 0;
+  padding-left: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.get-started-btn {
+  width: 70px;
+  height: 26px;
+  font-size: 12px;
+  background-color:rgb(242, 241, 239);
+  border: 5px;
+  border-radius: 6px;
+  font-weight: 600;
+  color:rgb(214, 150, 67);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 10px; /* pull away from edge */
+  padding: 2px 6px;
+}
+
+.get-started-btn:hover {
+  background-color:rgb(195, 169, 118);
+  color:rgb(244, 241, 237); ;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spacing between Dashboard button and UserButton */
+  margin-right: 20px; /* move the entire group left slightly */
+}
+
+.dashboard-btn {
+  margin-right: 5px; /* optional: fine-tune spacing if needed */
+    width: 100px;
+  height: 30px;
+  font-size: 12px;
+  background-color:rgb(242, 241, 239);
+  border: 5px;
+  border-radius: 6px;
+  font-weight: 600;
+  color:rgb(214, 150, 67);
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 17px; /* pull away from edge */
+  padding: 5px 8px;
+}
+
+.dashboard-btn:hover {
+  background-color:rgb(195, 169, 118);
+  color:rgb(244, 241, 237); ;
+}
